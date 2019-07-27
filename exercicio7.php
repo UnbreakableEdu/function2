@@ -17,7 +17,7 @@
     while($valorPrestacao<>0){
         print "Digite o valor da prestação: ";
         $valorPrestacao = (float) fgets(STDIN);
-        print "Digite o número de dias em atraso: ";
+        print "Digite o número de dias em atraso: "; /*Esse valor o codigo está ignorando, não consigo resolver.;
         $diasAtraso = (float) fgets(STDIN);
         $valorFinal = valorPagamento($valorPrestacao,$diasAtraso);
         print "Depois de aplicar a taxa de juros, o custo da prestação é de: ".$valorFinal."\n";
